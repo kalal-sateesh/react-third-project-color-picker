@@ -1,0 +1,9 @@
+.div {
+  width: 330px;
+  height: 330px;
+  background-color: yellow;
+  margin: auto;
+  margin-top: 2%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
