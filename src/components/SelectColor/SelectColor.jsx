@@ -8,8 +8,8 @@ const SelectColor = ({
   return (
     <div
       style={{
-        width: "330px",
-        height: "330px",
+        width: "22vw",
+        height: "47vh",
         margin: "auto",
         marginTop: "2%",
         border: "1px solid black",
@@ -26,7 +26,7 @@ const SelectColor = ({
 SelectColor.propTypes = {
   backgroundColor: PropTypes.string,
   color: PropTypes.string,
-  item:PropTypes.string,
-  defaultColor:PropTypes.string,
+  item: PropTypes.string,
+  defaultColor: PropTypes.string,
 };
 export default SelectColor;
